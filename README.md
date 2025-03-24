@@ -4,3 +4,5 @@ uv init chatbot
 uv add chainlit google-generativeai python-dotenv chainlit component for API
 .\.venv\Scripts\activate for activate your virtual environment 
 run command is chainlit run main.py
+
+deploy link: https://chatbot-emeaeatfnbfbrdwwmbmkhy.streamlit.app/
