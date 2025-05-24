@@ -8,10 +8,10 @@ from typing import Optional, Dict  # Type hints for better code clarity
 load_dotenv()
 
 # Get Gemini API key from environment variables
-gemini_api_key = os.getenv("AIzaSyCm2-t9juKFNcaJ56Uxw-TFtYtDiSQ7rOs")
+gemini_api_key = os.getenv("GEMINI_API_KEY")
 
-# Configure Gemini with API key
-genai.configure(api_key="AIzaSyCm2-t9juKFNcaJ56Uxw-TFtYtDiSQ7rOs")
+# ✅ Correct way to configure Gemini
+genai.configure(api_key=gemini_api_key)
 
 # Initialize Gemini model
 model = genai.GenerativeModel(
