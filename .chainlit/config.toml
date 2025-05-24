@@ -53,13 +53,13 @@ edit_message = true
 [features.audio]
     # Sample rate of the audio
     sample_rate = 24000
-
 [features.mcp.sse]
 enabled = true
 
 [features.mcp.stdio]
 enabled = true
 allowed_executables = [ "npx", "uvx" ]
+
 
 [UI]
 # Name of the assistant.
